@@ -1,3 +1,9 @@
+# Pour pouvoir exécuter le code : pip install vrpy et pip install osmnx
+
+# Dans cette question, nous avons généré plusieurs graphes (distances à vol d'oiseau, distances réelles, visualisation dans Paris). 
+# Pour avoir accès à tous les résultats (du moins dans VSCode), il est nécessaire de fermer un graphe pour afficher le suivant.
+
+
 import numpy
 import matplotlib.pyplot
 import pandas
