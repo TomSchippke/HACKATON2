@@ -19,7 +19,7 @@ Y = Y1 - y_s
 
 ## On reprend la configuration de la question 1.c), et on la modifie pour la calculer au la consommation au fur et à mesure du trajet
 
-# Pour une vitesse de 15 km/h
+# Pour une vitesse de 15 km/h (on a choisi cette vitesse en regardant les temps de trajet et les longueurs de trajet estimées par osmnx pour des questions de cohérence):
 P = P = 0.3*60*(15/3.6)*(0.5*1.2*((15/3.6)**2)*0.46*(10**(-3))*4.56 + 3500*9.81*(2.15*(10**(-3)) + 0.015*((15/3.6)**2))) # puissance fois rendement (avec unités correctes)
 
 G2 = osmnx.graph_from_address(
